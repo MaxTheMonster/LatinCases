@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=Signika);
+
+h2 {
+  font-family: 'Signika', serif;
+  font-weight: 0.7em;
+  float: right;
+  display: inline-block;
+}
+
+.sing {
+  text-align: center;
+  margin-right: 20em;
+}
+
+#title {
+  text-align: center;
+  text-decoration: underline;
+}
+
+h1 {
+  font-family: 'Signika', serif;
+  font-weight: 10px;
+  font-size: 3.2em;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  opacity: 0.9;
+}
+
+.line {
+  border-bottom: 8px solid dimgray;
+}
+
+strong {
+  color: white;
+  background-color: #c0392b;
+  padding: 0.4em;
+}
+
+.case {
+  margin: 0 10em;
+  width: 80%;
+  display: inline-block;
+}
+
+#sgtitle {
+  width: 4em;
+  margin: 0 auto;
+}
+
+#pltitle {
+  width: 4em;
+  float: right;
+  margin: 0;
+}
+
+#next {
+  float: right;
+}
+
+#prev, #next {
+  background-color: #2ecc71;
+  padding: 1.5em;
+  border: none;
+  color: white;
+  transition: 0.6s;
+  font-family: 'Signika', serif;
+  opacity: 0.6;
+  top: 1em;
+}
+#prev:hover, #next:hover {
+  opacity: 1;
+  cursor: pointer;
+  transition: 1s;
+}
