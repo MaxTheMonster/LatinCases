@@ -54,11 +54,11 @@ strong {
   margin: 0;
 }
 
-#next {
+.next {
   float: right;
 }
 
-#prev, #next {
+.prev, .next {
   background-color: #2ecc71;
   padding: 1.5em;
   border: none;
@@ -67,9 +67,16 @@ strong {
   font-family: 'Signika', serif;
   opacity: 0.6;
   top: 1em;
+  display: block;
 }
-#prev:hover, #next:hover {
+
+.prev:hover, .next:hover {
   opacity: 1;
   cursor: pointer;
   transition: 1s;
+}
+
+#gender {
+  color: goldenrod;
+  word-spacing: 2em;
 }
